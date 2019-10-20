@@ -1,0 +1,112 @@
+<html>
+<head>
+<title> My page </title>
+<link rel="stylesheet" type="text/css" href="stylee.css">
+
+</head>
+
+<ul>
+<li> <a class="active" href="or.html">HOME</a></li>
+<li> <a  href="introduction.html">INTRODUCTION</a></li>
+<li> <a  href="ourmethod.html">OUR METHOD</a></li>
+<li> <a  href="ourapp.html">OUR APP</a></li>
+<li style="float:right"> <a  href="aboutus.html">ABOUT US</a></li>
+
+
+</ul>
+<p class id ="p3"> <b> ORBODEBRIS </b></p>
+<p class id ="p9">ORBODEBRIS is an android application which is invented using the MIT-app inventor.The application gives us the detailed information about the orbital debris that what is orbital debris,
+why are they harmfuls and what are the threats that can be caused by space junk.The Orbodebris app also gives the information about the current measures and its various proposed method to clean up the space .
+
+<div class="mySlides fade">
+    <p style="text-align:center;">
+   <img src="a1.png"  width="902px" height="410px" ></p>
+</div>
+<div class="mySlides fade">
+   <p style="text-align:center;">
+   <img src="a3.png"  width="800px" height="410px" ></p>
+</div>
+
+<div class="mySlides fade">
+    <p style="text-align:center;">
+   <img src="a7.png"  width="800px" height="410px" class="center"></p>
+</div>
+<div class="mySlides fade">
+   <p style="text-align:center;">
+   <img src="a8.png"  width="800px" height="410px" class="center"></p>
+</div>
+<div class="mySlides fade">
+   <p style="text-align:center;">
+   <img src="a6.png"  width="800px" height="410px" class="center"></p>
+</div>
+<div class="mySlides fade">
+   <p style="text-align:center;">
+   <img src="a2.png"  width="800px" height="410px" class="center"></p>
+</div>
+<div class="mySlides fade">
+   <p style="text-align:center;">
+   <img src="a5.png"  width="800px" height="410px" class="center"></p>
+</div>
+<div class="mySlides fade">
+   <p style="text-align:center;">
+   <img src="a4.png"  width="800px" height="410px" class="center"></p>
+</div>
+
+
+</div>
+<div style="text-align:justify">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides,2000); // Change image every 4 seconds
+}
+</script>
+<p class id ="p6"><b><u>REFERENCE LINK</b></u><br>
+<a href="https://github.com/amudgal2000/Nasa-Space-Apps-Challenge">click here for github profile</a></p>
+
+<footer class id="p13">
+<table>
+<tr>
+<td><p class id="p11"><b><u>OUICK LINKS </b></u></p></td>
+<td><p class id="p12"><a href="ourmethod.html"style="color:white" >OUR METHOD</a></p></td>
+<td><p class id="p11"><b><u>CONTACT</b></u></p></td>
+</tr>
+<tr>
+<td>
+<p class id="p12"><a href="or.html" style="color:white">HOME</a></p></td>
+<td><p class id="p12"><a  href="ourapp.html" style="color:white">OUR APP</a></p></td>
+<td><p class id="p12"> EMAIL ID-manav.jain174@gmail.com</p></td>
+</tr>
+
+<tr>
+<td><p class id="p12"><a href="introduction.html"style="color:white">Introduction</a></p></td>
+<td><p class id="p12"><a href="aboutus.html"style="color:white">ABOUT US</a></p></td>
+<td><p class id="p12">Contact No-7838486674,8447718925</p></td>
+</tr>
+</table>
+</footer>
+</body>
+</html>

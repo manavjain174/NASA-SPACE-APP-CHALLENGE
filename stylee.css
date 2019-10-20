@@ -1,0 +1,109 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 18px;
+  overflow: hidden;
+  background-color: blue;
+
+}
+
+li {
+  float: left;
+  border-right:0px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 20px;
+  text-decoration: none;
+  border:1px solid #fff transparent;
+  transition:0.6s ease;
+  font-family: "Times New Roman", Times, serif;
+  
+}
+
+ul li a:hover {
+  background-color:lightblue;
+  color:#000; 
+  padding:18px;
+}
+ul li.active a{
+  background-color: #fff;
+  color:#000;
+
+}
+#p1{
+	font-size:70px;
+	font-family:arial verdana;
+	background-color:blue;
+
+	
+}	
+	
+#p2{
+	font-size:30px;
+	font-family:arial verdana;
+	background-color:lightblue;		
+}
+#p3{
+	font-size:70px;
+	font-family:arial verdana;	
+	COLOR:black;
+	text-align:center;
+}
+#p6{
+	font-size:30px;
+	font-family:arial verdana;	
+	COLOR:black;
+	margin-left:50px;
+	margin-right:50px;
+	
+}
+#p7{
+	font-size:25px;
+	font-family:arial verdana;	
+	COLOR:black;
+	margin-left:50px;
+	margin-right:50px;
+	
+}
+#p8{
+	font-size:20px;
+	font-family:arial verdana;
+	background-color:lightblue;
+	margin-left:50px;
+	margin-right:50px;
+}
+#p9{
+	font-size:25px;
+	font-family:arial verdana;
+	background-color:lightblue;
+	margin-left:50px;
+	margin-right:50px;
+}	
+#p10{
+	font-size:70px;
+	font-family:arial verdana;	
+	COLOR:white;
+	text-align:center;
+}
+#p13{
+	 margin: 0;
+  padding: 18px;
+  overflow: hidden;
+  background-color: blue;
+}
+#p11{
+	font-size:20px;
+	font-family:arial verdana;	
+	COLOR:white;
+	margin-left:50px;
+}
+#p12{
+	font-size:15px;
+	font-family:arial verdana;	
+	COLOR:white;
+	margin-left:50px;
+}
